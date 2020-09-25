@@ -77,10 +77,10 @@ class TestCommand(Command):
 
 setup(
     name='django-postgres-copy',
-    version='2.4.3',
+    version='2.4.2+lyst',
     author='Ben Welsh',
     author_email='ben.welsh@gmail.com',
-    url='http://django-postgres-copy.californiacivicdata.org/',
+    url='https://github.com/lyst/django-postgres-copy/tree/drop_explicit_psycopg2_dep',
     description="Quickly import and export delimited data with Django support for PostgreSQL's COPY command",
     long_description=read('README.rst'),
     license="MIT",
@@ -106,7 +106,7 @@ setup(
     project_urls={
         'Documentation': 'http://django-postgres-copy.californiacivicdata.org',
         'Funding': 'https://www.californiacivicdata.org/about/',
-        'Source': 'https://github.com/california-civic-data-coalition/django-postgres-copy',
+        'Source': 'https://github.com/lyst/django-postgres-copy/tree/drop_explicit_psycopg2_dep',
         'Coverage': 'https://coveralls.io/github/california-civic-data-coalition/django-postgres-copy?branch=master',
         'Tracker': 'https://github.com/california-civic-data-coalition/django-postgres-copy/issues'
     },
